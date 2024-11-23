@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ece097;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #87e09a, #2a5298); /* Updated colors */
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.contact-info h1 {
+    margin-bottom: 0.5em;
+}
+
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 900px;
+    background: rgba(160, 230, 68, 0.712);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007acc;
+    margin-bottom: 1em;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.skills-grid, .awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5em;
+}
+
+.skill-card, .award-item, .education-card, .experience-card {
+    background: #f0f8ff; /* Light blue background for consistency */
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill-card h3, .award-item h3 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+/* Certifications Section */
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5em;
+}
+
+.certification-card {
+    background: #f0f8ff; /* Same light blue background for uniformity */
+    padding: 1.5em;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.certification-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.certification-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+/* Professional Experience Section */
+/* Professional Experience Section */
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* 2 columns on wider screens */
+    gap: 1.5em;
+    margin-bottom: 2em;
+}
+
+.experience-card {
+    background: #f0f8ff; /* Light background similar to other sections */
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.experience-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.experience-card h3 {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.experience-card p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.experience-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-card ul li {
+    margin-bottom: 0.5em;
+    color: #555;
+}
+
+
+
+/* Awards Section */
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5em;
+    margin-bottom: 2em;
+}
+
+.award-item {
+    background: #e0f7fa; /* Light aqua background for consistency */
+    padding: 1.5em;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.award-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.award-item h3 {
+    font-size: 1.3em;
+    color: #333; /* Dark text */
+    margin-bottom: 0.5em;
+}
+
+.award-item p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
